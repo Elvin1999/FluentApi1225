@@ -107,7 +107,7 @@
             <StackPanel Orientation="Horizontal">
                 <Button Command="{Binding DeleteCustomerCommand}" FontWeight="DemiBold" FontSize="22" Content="Delete Customer" Margin="5"></Button>
                 <Button Command="{Binding OrderNowCommand}" FontWeight="DemiBold" FontSize="22" Content="Order Now Customer" Margin="5"></Button>
-                <Button FontWeight="DemiBold" FontSize="22" Content="Delete Order" Margin="5"></Button>
+                <Button Command="{Binding DeleteOrderCommand}" FontWeight="DemiBold" FontSize="22" Content="Delete Order" Margin="5"></Button>
 
             </StackPanel>
         </StackPanel>
